@@ -1,15 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import styled from 'styled-components';
 
 const Styles = styled.div`
 	h1 {
 		text-align: center;
   	color: #a5c9ff;
+  	font-size: 3.5vh;
+  	font-family: 'Inconsolata', monospace;
 	}
 
 	#cursor {
-  	border-left: .1em solid #a5c9ff;
+  	border-left: .6em solid #a5c9ff;
   	animation: blink .7s steps(1) infinite;
 	}
 

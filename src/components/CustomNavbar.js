@@ -25,14 +25,6 @@ const Styles = styled.div`
 			background-color: #a5c9ff
 		}
 	}
-
-	/* Test
-	.sticky-nav {
-  		position: sticky;
-  		top: 0;
-	}
-	*/
-
 `;
 
 function CustomNavbar() {
